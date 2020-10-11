@@ -1,0 +1,39 @@
+// {
+//   "plugins": [
+//     "transform-es2015-block-scoping",
+//     "babel-plugin-transform-async-to-generator",
+//     "transform-runtime",
+//     [
+//       "module-resolver",
+//       {
+//         "root": [
+//           "."
+//         ],
+//         "alias": {
+//           "styles": "./styles"
+//         },
+//         "cwd": "babelrc"
+//       }
+//     ],
+//     [
+//       "wrap-in-js",
+//       {
+//         "extensions": [
+//           "css$",
+//           "scss$"
+//         ]
+//       }
+//     ]
+//   ],
+//   "presets": [
+//     "env",
+//     "next/babel",
+//     "es2015",
+//     "stage-0",
+//     "react"
+//   ],
+//   "ignore": []
+// }
+{
+  "presets": ["next/babel"]
+}
